@@ -1,0 +1,11 @@
+package com.frankmoley.lil.learningspring.business.domain;
+
+public class RoomReservation {
+	private long roomId;
+	private long guestId ;
+	private String roomName;
+	private String firstName;
+	private String lastName;
+	private Date date;
+
+}

@@ -1,0 +1,20 @@
+package lesson4;
+
+import java.util.ArrayList;
+
+public class Application {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> list1 = new ArrayList<Integer>();
+		list1.add(12);
+		list1.add(43);
+		list1.add(15);
+		list1.add(67);
+		list1.add(43);
+		
+		ArrayList<Integer> newlist = new ArrayList<Integer>();
+		newlist.add(10);
+	}
+
+}
