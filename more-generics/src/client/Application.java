@@ -61,7 +61,7 @@ public class Application {
 		ArrayList<Employee> accountants4 = new ArrayList<>();   
 		employees4 = accountants4;
 //		
-		makeEmployeeWork(employees);
+		makeEmployeeWork(accountants);
 	}
 
 //	public static  <E> Set<E> union(Set<E> set1,Set<E> set2) {
@@ -71,7 +71,13 @@ public class Application {
 //	}
 	
 
-	public static void makeEmployeeWork(List<Employee> employees) {
+//	public static void makeEmployeeWork(List<Employee> employees) {
+//		for(Employee emp : employees) {
+//			emp.work();                                                       // method
+//		}
+//	}
+	
+	public static void makeEmployeeWork(List<? extends Employee> employees) {
 		for(Employee emp : employees) {
 			emp.work();                                                       // method
 		}
