@@ -52,4 +52,5 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="client.Employee"/>
     <fullyQualifiedTypeName name="client.Accountant"/>
+    <fullyQualifiedTypeName name="ThreadBasics.Task"/>
 </qualifiedTypeNameHistroy>
