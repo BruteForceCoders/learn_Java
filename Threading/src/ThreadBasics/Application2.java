@@ -6,11 +6,15 @@ public class Application2 {
 		// TODO Auto-generated method stub
 		System.out.println("Starting Thread1");
 		Task2 taskRunner1 = new Task2();
-		taskRunner1.run();
+		taskRunner1.setName("Thread1");
+		taskRunner1.start();
+		
 		
 		System.out.println("Starting Thread2");
 		Task2 taskRunner2 = new Task2();
-		taskRunner2.run();
+		taskRunner2.setName("Thread2");
+		taskRunner2.start();;
+		
 		
 	}
 
