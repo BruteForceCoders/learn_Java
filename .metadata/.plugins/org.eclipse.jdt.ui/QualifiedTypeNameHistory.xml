@@ -53,4 +53,7 @@
     <fullyQualifiedTypeName name="client.Employee"/>
     <fullyQualifiedTypeName name="client.Accountant"/>
     <fullyQualifiedTypeName name="ThreadBasics.Task"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="ThreadBasics.Task2"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
