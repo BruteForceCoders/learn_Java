@@ -56,4 +56,7 @@
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="ThreadBasics.Task2"/>
     <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="ThreadSynchronization.Sequence"/>
+    <fullyQualifiedTypeName name="ThreadSynchronization.Worker"/>
+    <fullyQualifiedTypeName name="com.sun.tools.classfile.StackMapTable_attribute.same_frame"/>
 </qualifiedTypeNameHistroy>
