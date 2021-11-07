@@ -2,11 +2,15 @@ package Inventory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class InventoryManager {
 
-	List<Product> SoldProductList = new ArrayList<>();
+	List<Product> SoldProductList = new CopyOnWriteArrayList()<>();
 	List<Product> PurchaseProductList = new ArrayList<>();
+	
+	Vector vector = new Vector();
 	
 	public void populateSoldProducts() {
 		

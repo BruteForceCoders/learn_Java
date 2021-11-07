@@ -28,7 +28,6 @@ public class Application {
 		
 		
 		inventoryTask.start();
-		Thread.sleep(20000);
 		displayTask.start();
 	}
 
