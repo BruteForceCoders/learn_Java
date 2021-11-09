@@ -34,6 +34,12 @@ public class Producer implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
+		while(true){
+			try {
+				readQuestion(questionNo++);
+			} catch (InterruptedException e) {
+			}
+		}
 	}
 
 }
