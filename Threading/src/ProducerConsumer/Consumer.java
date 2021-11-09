@@ -13,7 +13,7 @@ public class Consumer implements Runnable {
 		this.questionList = questionList;
 	}
 
-	public void answerQuestion(int questionNo) throws InterruptedException {
+	public void answerQuestion() throws InterruptedException {
 		synchronized (questionList) {
 
 			while (questionList.isEmpty()) {
@@ -24,9 +24,8 @@ public class Consumer implements Runnable {
 		
 		synchronized (questionList) {
 			
-				System.out.println("New Question :"+questionNo);
-				questionList.add(questionNo);
-				Thread.sleep(100);
+				Thread.sleep(5000);
+				System.out.println("ANSWERED Question :"+questionList.remove(0));
 				questionList.notify();
 		}
 	}
@@ -36,7 +35,7 @@ public class Consumer implements Runnable {
 		// TODO Auto-generated method stub
 		while(true){
 			try {
-				readQuestion(questionNo++);
+				answerQuestion();
 			} catch (InterruptedException e) {
 			}
 		}
