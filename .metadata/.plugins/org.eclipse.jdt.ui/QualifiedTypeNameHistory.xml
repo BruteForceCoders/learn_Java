@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.frankmoley.lil.learningspring.data.entity.Room"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
@@ -12,14 +11,12 @@
     <fullyQualifiedTypeName name="car_dealership.Employee"/>
     <fullyQualifiedTypeName name="car_dealership.Customer"/>
     <fullyQualifiedTypeName name="car_dealership.Vehicle"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="MyFileUtils"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="MyFileUtils.FooRuntimeException"/>
     <fullyQualifiedTypeName name="Aaron.exceptions.FooRuntimeException"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="com.aaron.learningfilereader.MyClass"/>
     <fullyQualifiedTypeName name="java.util.LinkedList"/>
@@ -58,6 +55,9 @@
     <fullyQualifiedTypeName name="ProducerConsumer.Consumer"/>
     <fullyQualifiedTypeName name="junit.framework.Assert"/>
     <fullyQualifiedTypeName name="org.junit.Assert"/>
-    <fullyQualifiedTypeName name="OperationOnMath.MathUtils"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="OperationOnMath.MathUtils"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
