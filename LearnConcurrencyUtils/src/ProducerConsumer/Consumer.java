@@ -19,6 +19,7 @@ public class Consumer implements Runnable{
 			
 		i++;
 		try {
+			Thread.sleep(1000);
 			System.out.println("Ansered new Question: "+questionQueue.take());
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
